@@ -1,0 +1,43 @@
+.colorBox{
+  display: grid;
+  place-content: center;
+  width: 160px;
+  height:150px;
+  place-items: center;
+  border: 3px solid black;
+  border-radius: 5px;
+  
+}
+.colorField{
+  display: grid;
+  place-content: center;
+  place-items: center;
+  border: 3px solid black;
+  border-radius: 5px;
+  margin-top: 10px;
+  
+}
+.toggleButton{
+  border: 3px solid black;
+  border-radius: 5px;
+  display: grid;
+  place-content: center;
+  place-items: center;
+  width: 170px;
+  margin-top: 10px;
+}
+
+.buttonClass{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  width: 100px;
+  height:40px;
+  background-color: grey;
+  color: black;
+}
+.button.selected{
+  background-color: black;
+  color: whitesmoke;
+}
